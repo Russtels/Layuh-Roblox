@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{218e3b39-2815-4415-b220-430939d8aa28}</ProjectGuid>
+    <RootNamespace>archangel</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Layuh</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)build</OutDir>
+    <IntDir>$(SolutionDir)build/intermediates</IntDir>
+    <LibraryPath>C:\Users\Caoimhin\Downloads\Layuh\Layuh\cheat\menu\ui\imgui\DirectX\Lib\x64;C:\Users\Caoimhin\Downloads\havoc\havoc\src\auth\tsar\lib;C:\Users\Caoimhin\Downloads\ui (1)\thirdparty\Microsoft DirectX SDK\Lib\x64;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Caoimhin\Desktop\Havoc Module\Synergy\Synergy\cottoncandy\Dependencies\Microsoft DirectX SDK\Include;C:\Users\Caoimhin\Downloads\ui (1)\thirdparty\Microsoft DirectX SDK\Include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\freetype-master\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\freetype-master\objs;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;d3dx9.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>..\Layuh;..\Layuh\cheat\misc;..\Layuh\cheat\menu;..\Layuh\cheat\menu\ui;..\Layuh\cheat\menu\ui\imgui;..\Layuh\cheat\include;..\Layuh\cheat\include\curl;..\Layuh\cheat\include\keyauth;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/wd4005 /wd4305 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;wldap32.lib;advapi32.lib;crypt32.lib;normaliz.lib
+;d3dx9.lib;zlib.lib;library_x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+      <AdditionalLibraryDirectories>..\Layuh\cheat\include\libs;..\Layuh\cheat\include\keyauth;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="cheat\aimbot\aimbot.cpp" />
+    <ClCompile Include="cheat\esp\esp.cpp" />
+    <ClCompile Include="cheat\images\image_handler.cpp" />
+    <ClCompile Include="cheat\menu\menu.cpp" />
+    <ClCompile Include="cheat\misc\misc.cpp" />
+    <ClCompile Include="cheat\globals\globals.cpp" />
+    <ClCompile Include="kernel\driver.cpp" />
+    <ClCompile Include="cheat\menu\ui\imgui\custom.cpp" />
+    <ClCompile Include="cheat\menu\ui\imgui\imgui.cpp" />
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_demo.cpp" />
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_draw.cpp" />
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="cheat\menu\ui\render\drawing\drawing.cpp" />
+    <ClCompile Include="cheat\menu\ui\render\drawing\image.cpp" />
+    <ClCompile Include="cheat\menu\ui\render\overlay.cpp" />
+    <ClCompile Include="cheat\utils\utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cheat\aimbot\aimbot.h" />
+    <ClInclude Include="cheat\esp\esp.h" />
+    <ClInclude Include="cheat\images\image_handler.h" />
+    <ClInclude Include="cheat\include\keyauth\auth.hpp" />
+    <ClInclude Include="cheat\include\keyauth\utils.hpp" />
+    <ClInclude Include="cheat\menu\menu.h" />
+    <ClInclude Include="cheat\misc\misc.h" />
+    <ClInclude Include="cheat\globals\roblox.h" />
+    <ClInclude Include="cheat\globals\globals.h" />
+    <ClInclude Include="entry.h" />
+    <ClInclude Include="kernel\driver.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\bytes.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\custom.hpp" />
+    <ClInclude Include="cheat\menu\ui\imgui\fonts.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\fonts.hpp" />
+    <ClInclude Include="cheat\menu\ui\imgui\icon_font.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\images.hpp" />
+    <ClInclude Include="cheat\menu\ui\imgui\imconfig.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\imgui.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\imgui_internal.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\imstb_rectpack.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\imstb_textedit.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\imstb_truetype.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\stb_image.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\stb_image_resize.h" />
+    <ClInclude Include="cheat\menu\ui\imgui\stb_sprintf.h" />
+    <ClInclude Include="cheat\menu\ui\render\drawing\drawing.h" />
+    <ClInclude Include="cheat\menu\ui\render\drawing\image.h" />
+    <ClInclude Include="cheat\menu\ui\render\overlay.h" />
+    <ClInclude Include="cheat\utils\utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="cheat\include\keyauth\library_x64.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

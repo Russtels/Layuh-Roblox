@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry.cpp" />
+    <ClCompile Include="cheat\aimbot\aimbot.cpp">
+      <Filter>cheat\aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel\driver.cpp">
+      <Filter>cheat\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\esp\esp.cpp">
+      <Filter>cheat\esp</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\imgui\custom.cpp">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\render\drawing\drawing.cpp">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_draw.cpp">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\imgui\imgui.cpp">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_demo.cpp">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_impl_dx9.cpp">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_impl_win32.cpp">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\imgui\imgui_widgets.cpp">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\render\overlay.cpp">
+      <Filter>cheat\menu\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\utils\utils.cpp">
+      <Filter>cheat\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\ui\render\drawing\image.cpp">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\images\image_handler.cpp">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\menu\menu.cpp">
+      <Filter>cheat\menu\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\misc\misc.cpp">
+      <Filter>cheat\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\globals\globals.cpp">
+      <Filter>cheat\globals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entry.h" />
+    <ClInclude Include="cheat\aimbot\aimbot.h">
+      <Filter>cheat\aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel\driver.h">
+      <Filter>cheat\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\esp\esp.h">
+      <Filter>cheat\esp</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\bytes.h">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\custom.hpp">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\render\drawing\drawing.h">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\fonts.hpp">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\fonts.h">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\imconfig.h">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\imgui.h">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\imgui_impl_dx9.h">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\imgui_impl_win32.h">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\imgui_internal.h">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\imstb_rectpack.h">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\imstb_textedit.h">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\imstb_truetype.h">
+      <Filter>cheat\menu\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\render\overlay.h">
+      <Filter>cheat\menu\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\utils\utils.h">
+      <Filter>cheat\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\icon_font.h">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\render\drawing\image.h">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\images\image_handler.h">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\images.hpp">
+      <Filter>cheat\menu\bytes</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\menu.h">
+      <Filter>cheat\menu\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\misc\misc.h">
+      <Filter>cheat\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\stb_sprintf.h">
+      <Filter>cheat\globals\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\stb_image_resize.h">
+      <Filter>cheat\globals\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\menu\ui\imgui\stb_image.h">
+      <Filter>cheat\globals\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\globals\roblox.h">
+      <Filter>cheat\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\globals\globals.h">
+      <Filter>cheat\globals</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\include\keyauth\auth.hpp">
+      <Filter>cheat\utils\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\include\keyauth\utils.hpp">
+      <Filter>cheat\utils\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{9c698a4f-64ff-4a95-b9c3-8ec4b4b06e9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\aimbot">
+      <UniqueIdentifier>{f9ab2f04-1e14-4d24-89ce-81521b56c5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\esp">
+      <UniqueIdentifier>{47c025db-f7ee-461f-873e-beb6a5023948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\menu">
+      <UniqueIdentifier>{09e47397-1109-4153-83a9-1bd159106c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\kernel">
+      <UniqueIdentifier>{44463496-f29c-434f-853b-3cb201c3dadc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\menu\overlay">
+      <UniqueIdentifier>{3377f77c-13b1-4d40-be15-528cd5bee0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\menu\bytes">
+      <UniqueIdentifier>{54097bfb-be99-4d3d-924a-4a13ec327b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\globals">
+      <UniqueIdentifier>{388e1623-99ae-4eb6-9022-a8777e3b5626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\menu\imgui">
+      <UniqueIdentifier>{830ced97-fa29-4740-81fd-ac0025edc989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\utils">
+      <UniqueIdentifier>{fac0a665-8818-46ae-af33-9bdb387f1b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\menu\menu">
+      <UniqueIdentifier>{9c40eed4-c3ce-47ab-830e-77748c7a7358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\offsets">
+      <UniqueIdentifier>{243ffad2-85cd-437a-9aa8-d74245adb1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\globals\stb">
+      <UniqueIdentifier>{9a80d5bc-8337-44c5-b91b-2b9815aa47e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\utils\inc">
+      <UniqueIdentifier>{811238e6-7c1d-45a5-a602-dbe2a126f7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\misc">
+      <UniqueIdentifier>{8a28e592-812e-4278-99af-4c59b3922b56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="cheat\include\keyauth\library_x64.lib">
+      <Filter>cheat\utils\inc</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

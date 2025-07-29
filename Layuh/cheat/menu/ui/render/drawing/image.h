@@ -1,0 +1,39 @@
+#pragma once
+#include <vector>
+
+extern std::vector<uint8_t> workspace_image_data;
+extern std::vector<uint8_t> part_image_data;
+extern std::vector<uint8_t> model_image_data;
+extern std::vector<uint8_t> folder_image_data;
+extern std::vector<uint8_t> camera_image_data;
+extern std::vector<uint8_t> script_image_data;
+extern std::vector<uint8_t> local_script_image_data;
+extern std::vector<uint8_t> players_image_data;
+extern std::vector<uint8_t> humanoid_image_data;
+extern std::vector<uint8_t> accessory_image_data;
+extern std::vector<uint8_t> sound_image_data;
+extern std::vector<uint8_t> replicated_storage_image_data;
+extern std::vector<uint8_t> hat_image_data;
+extern std::vector<uint8_t> player_image_data;
+extern std::vector<uint8_t> module_script_image_data;
+extern std::vector<uint8_t> run_service_image_data;
+extern std::vector<uint8_t> spawn_location_image_data;
+extern std::vector<uint8_t> stats_image_data;
+extern std::vector<uint8_t> starter_gui_image_data;
+extern std::vector<uint8_t> replicated_first_image_data;
+extern std::vector<uint8_t> chat_image_data;
+extern std::vector<uint8_t> starter_pack_image_data;
+extern std::vector<uint8_t> gui_service_image_data;
+extern std::vector<uint8_t> core_gui_image_data;
+extern std::vector<uint8_t> data_store_data;
+extern std::vector<uint8_t> remote_event_data;
+extern std::vector<uint8_t> remote_function_data;
+extern std::vector<uint8_t> ui_list_layout_data;
+extern std::vector<uint8_t> text_label_data;
+extern std::vector<uint8_t> text_button_data;
+extern std::vector<uint8_t> image_label_data;
+extern std::vector<uint8_t> frame_data;
+extern std::vector<uint8_t> billboard_gui_data;
+extern std::vector<uint8_t> surface_gui_data;
+extern std::vector<uint8_t> http_rbx_api_service_data;
+extern std::vector<uint8_t> insert_service_data;
